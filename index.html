@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Maps (New York)</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin="">
+  
+  <style>
+    #map{ height: 100% }
+  </style>
+</head>
+<body>
+
+<header>
+<h1>Map of New York</h1>
+</header>
+  
+  <form>
+        <label for="places">New York Boroughs</label>
+        <select id="places" name="places">
+          <option value="default">Please select</option>
+          <option value="Brooklyn">Brooklyn</option>
+          <option value="Bronx">Bronx</option>
+          <option value="Manhattan">Manhattan</option>
+          <option value="Queens">Queens</option>
+          <option value="Staten Island">Staten Island</option>
+        </select>
+      </form>
+  <div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
+<script type="text/javascript" src="js/main.js"></script> 
+</body>
+</html>
+	
